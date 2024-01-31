@@ -1,7 +1,7 @@
-const navColorControl = document.querySelector(".sticky-header");
+const navColorControl = document.querySelector("sticky-header");
 const logoColor = document.querySelector(".header__heading-logo-wrapper");
 
-if (window.scrollY = 0) {
+if ((window.scrollY = 0)) {
     logoColor.style.filter = "brightness(1)";
     if (navColorControl.contains("color-background-1")) {
         navColorControl.classList.remove("color-background-1");
