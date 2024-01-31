@@ -2,7 +2,7 @@ const navColorControl = document.querySelector("sticky-header");
 const logoColor = document.querySelector(".header__heading-logo-wrapper");
 const backgroundColorControl = document.querySelector(".header-wrapper");
 
-logoColor.style.filter = "brightness(0)";
+logoColor.style.filter = "brightness(1)";
 backgroundColorControl.style.backgroundColor = "none";
 
 window.addEventListener("scroll", function () {
@@ -10,7 +10,7 @@ window.addEventListener("scroll", function () {
         navColorControl.classList.add("color-background-1");
         navColorControl.classList.remove("color-background-2");
         backgroundColorControl.style.backgroundColor = "white";
-        logoColor.style.filter = "brightness(1)";
+        logoColor.style.filter = "brightness(0)";
     } else {
         logoColor.style.filter = "brightness(1)";
         navColorControl.classList.remove("color-background-1");
