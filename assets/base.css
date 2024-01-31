@@ -6,8 +6,7 @@
 }
 
 .banner__media > img {
-    filter: brightness(50%);
-    object-position: center;
+    filter: brightness(40%);
 }
 .product-card-wrapper .card,
 .contains-card--product {
