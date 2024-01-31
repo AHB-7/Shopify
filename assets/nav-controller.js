@@ -15,6 +15,6 @@ window.addEventListener("scroll", function () {
         logoColor.style.filter = "brightness(1)";
         navColorControl.classList.remove("color-background-1");
         navColorControl.classList.add("color-background-2");
-        backgroundColorControl.style.backgroundColor = "none";
+        backgroundColorControl.style.backgroundColor = "transparent";
     }
 });
