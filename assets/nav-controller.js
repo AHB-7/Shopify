@@ -10,3 +10,4 @@ if (window.scrollY >= 400) {
     // navColorControl.classList.remove("color-background-2");
     logoColor.style.filter = "brightness(0)";
 }
+console.log(window.scrollY);
