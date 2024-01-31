@@ -7,17 +7,17 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/412F81A2-8A08-4F98-9AAC-EBF302041174_3a1266bc-2060-4905-a973-09e8525fca43.jpg",
-            "heading": "Memories on the wrist",
+            "heading": "",
             "heading_size": "h0",
             "subheading": "Memories on the wrist",
-            "button_label": "",
+            "button_label": "Memories On Whe Wrist",
             "link": "shopify:\/\/collections\/frontpage",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "inverse",
             "text_alignment_mobile": "center"
           }
         },
@@ -28,14 +28,14 @@
             "heading": "",
             "heading_size": "h0",
             "subheading": "Tell your brand's story through images",
-            "button_label": "Somthing To click",
+            "button_label": "On Time",
             "link": "shopify:\/\/collections\/frontpage",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "inverse",
             "text_alignment_mobile": "center"
           }
         },
@@ -46,14 +46,14 @@
             "heading": "Image slide",
             "heading_size": "h0",
             "subheading": "",
-            "button_label": "Somthing To Click",
+            "button_label": "Prettier",
             "link": "shopify:\/\/collections\/frontpage",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "inverse",
             "text_alignment_mobile": "center"
           }
         }
