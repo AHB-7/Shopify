@@ -2,6 +2,7 @@ const navColorControl = document.querySelector("sticky-header");
 const logoColor = document.querySelector(".header__heading-logo-wrapper");
 
 logoColor.style.filter = "brightness(1)";
+navColorControl.style.backgroundColor = "none";
 
 window.addEventListener("scroll", function () {
     if (window.scrollY >= 100) {
