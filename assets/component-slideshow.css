@@ -53,9 +53,6 @@ slideshow-component .slideshow.banner {
 .slideshow__text > * {
     max-width: 100%;
 }
-.banner__media {
-    filter: brightnes(50%);
-}
 
 @media screen and (max-width: 749px) {
     slideshow-component.page-width .slideshow__text {
