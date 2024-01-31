@@ -160,13 +160,13 @@
       },
       "inverse": {
         "settings": {
-          "background": "#242833",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#ffffff",
-          "button": "#ffffff",
-          "button_label": "#000000",
+          "button": "{{ shop.brand.colors.primary[1].background }}",
+          "button_label": "#ffffff",
           "secondary_button_label": "#ffffff",
-          "shadow": "#121212"
+          "shadow": "#ffffff"
         }
       },
       "accent-1": {
