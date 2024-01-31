@@ -2524,6 +2524,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 .header__heading-logo-wrapper {
     width: 100%;
     display: inline-block;
+    filter: brightness(0);
     transition: width 0.3s cubic-bezier(0.52, 0, 0.61, 0.99);
 }
 
