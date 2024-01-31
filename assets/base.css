@@ -6,7 +6,7 @@
 }
 
 .banner__media > img {
-    filter: brightness(60%);
+    filter: brightness(40%);
 }
 .product-card-wrapper .card,
 .contains-card--product {
