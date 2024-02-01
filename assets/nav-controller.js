@@ -5,6 +5,8 @@ const currentUrl = window.location.pathname;
 
 logoColor.style.filter = "brightness(1)";
 backgroundColorControl.style.backgroundColor = "none";
+navColorControl.classList.add("color-background-1");
+navColorControl.classList.remove("color-background-2");
 
 window.addEventListener("scroll", function () {
     if (window.scrollY >= 100) {
