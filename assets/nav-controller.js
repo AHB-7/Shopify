@@ -1,4 +1,4 @@
-const navColorControl = document.querySelector("sticky-header");
+const navColorControl = document.querySelector(".sticky-header");
 const logoColor = document.querySelector(".header__heading-logo-wrapper");
 const backgroundColorControl = document.querySelector(".header-wrapper");
 
@@ -13,7 +13,7 @@ window.addEventListener("scroll", function () {
         logoColor.style.filter = "brightness(0)";
     } else {
         const currentUrl = window.location.href;
-        if (currentUrl != velissi.com) {
+        if (currentUrl !== "https://velissi.com") {
             navColorControl.classList.add("color-background-1");
             navColorControl.classList.remove("color-background-2");
             logoColor.style.filter = "brightness(1)";
@@ -25,6 +25,6 @@ window.addEventListener("scroll", function () {
         }
     }
 });
-const currentUrl = window.location.href;
 
+const currentUrl = window.location.href;
 console.log(currentUrl);
