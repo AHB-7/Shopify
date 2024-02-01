@@ -6,7 +6,7 @@ const currentUrl = window.location.pathname;
 logoColor.style.filter = "brightness(1)";
 backgroundColorControl.style.backgroundColor = "none";
 if (currentUrl !== "/") {
-    logoColor.style.filter = "brightness(1)";
+    logoColor.style.filter = "brightness(0)";
     navColorControl.classList.add("color-background-1");
     navColorControl.classList.remove("color-background-2");
 }
