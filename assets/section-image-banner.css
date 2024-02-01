@@ -456,6 +456,7 @@
     word-break: break-word;
 }
 
+
 @media screen and (max-width: 749px) {
     .banner--content-align-mobile-right .banner__buttons--multiple {
         justify-content: flex-end;
