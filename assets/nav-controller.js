@@ -18,3 +18,9 @@ window.addEventListener("scroll", function () {
         backgroundColorControl.style.backgroundColor = "transparent";
     }
 });
+const currentUrl = window.location.href;
+if (currentUrl === velissi.com) {
+    navColorControl.classList.add("color-background-1");
+    navColorControl.classList.remove("color-background-2");
+}
+console.log(currentUrl);
