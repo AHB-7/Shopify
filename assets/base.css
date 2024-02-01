@@ -8,6 +8,9 @@
 .banner__media > img {
     filter: brightness(40%);
 }
+.section-template--16859575419011__featured_collection-padding {
+    padding-top: 100vh;
+}
 .product-card-wrapper .card,
 .contains-card--product {
     --border-radius: var(--product-card-corner-radius);
