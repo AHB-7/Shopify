@@ -1,7 +1,15 @@
 const navColorControl = document.querySelector("sticky-header");
 const logoColor = document.querySelector(".header__heading-logo-wrapper");
 const backgroundColorControl = document.querySelector(".header-wrapper");
+const paddingForTheMainPage = document.querySelector(
+    "#Slider-template--16859575419011__slideshow_E3PJYq"
+);
 const currentUrl = window.location.pathname;
+
+// Size first section
+paddingForTheMainPage.style.height = "100vh";
+paddingForTheMainPage.style.width = "100%"; //
+//Nav color control
 
 backgroundColorControl.style.backgroundColor = "none";
 if (currentUrl !== "/") {
