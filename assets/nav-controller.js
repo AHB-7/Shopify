@@ -3,12 +3,13 @@ const logoColor = document.querySelector(".header__heading-logo-wrapper");
 const backgroundColorControl = document.querySelector(".header-wrapper");
 const currentUrl = window.location.pathname;
 
-logoColor.style.filter = "brightness(1)";
 backgroundColorControl.style.backgroundColor = "none";
 if (currentUrl !== "/") {
     logoColor.style.filter = "brightness(0)";
     navColorControl.classList.add("color-background-1");
     navColorControl.classList.remove("color-background-2");
+} else {
+    logoColor.style.filter = "brightness(1)";
 }
 
 window.addEventListener("scroll", function () {
