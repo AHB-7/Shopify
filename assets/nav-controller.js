@@ -9,7 +9,7 @@ window.addEventListener("scroll", function () {
     } else (window.scrollY >= 100){
         navColorControl.classList.add("color-background-1");
         navColorControl.classList.remove("color-background-2");
-        backgroundColorControl.style.backgroundColor = "transparent";
-        logoColor.style.filter = "brightness(1)";
+        backgroundColorControl.style.backgroundColor = "white";
+        logoColor.style.filter = "brightness(0)";
     }
 });
