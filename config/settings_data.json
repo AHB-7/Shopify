@@ -118,6 +118,7 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "background-1",
+    "checkout_input_background_color_mode": "white",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -384,5 +385,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "#billingAddressDetails {display: none;}"
+    ]
   }
 }
