@@ -13,7 +13,7 @@ window.addEventListener("scroll", function () {
         backgroundColorControl.style.backgroundColor = "white";
         logoColor.style.filter = "brightness(0)";
     } else {
-        if (currentUrl.length >= 1) {
+        if (currentUrl !== "/") {
             logoColor.style.filter = "brightness(0)";
             navColorControl.classList.add("color-background-1");
             navColorControl.classList.remove("color-background-2");
