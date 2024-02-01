@@ -9,7 +9,7 @@ window.addEventListener("scroll", function () {
     const currentUrl = window.location.href;
 
     if (window.scrollY >= 100) {
-        if (currentUrl.includes("velissi.com")) {
+        if (currentUrl.includes("velissi.com/")) {
             navColorControl.classList.add("color-background-1");
             navColorControl.classList.remove("color-background-2");
             backgroundColorControl.style.backgroundColor = "white";
