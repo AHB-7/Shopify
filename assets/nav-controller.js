@@ -5,9 +5,7 @@ const backgroundColorControl = document.querySelector(".header-wrapper");
 logoColor.style.filter = "brightness(1)";
 
 window.addEventListener("scroll", function () {
-    if (window.scrollY >= 100) {
-        logoColor.style.filter = "brightness(0)";
-        backgroundColorControl.style.backgroundColor = "white";
+    if (window.scrollY <= 100) {
     } else {
         navColorControl.classList.add("color-background-1");
         navColorControl.classList.remove("color-background-2");
