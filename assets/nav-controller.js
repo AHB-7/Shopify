@@ -7,8 +7,6 @@ const paddingForTheMainPage = document.querySelector(
 const currentUrl = window.location.pathname;
 
 // Size first section
-paddingForTheMainPage.style.marginBottom = "100vh";
-paddingForTheMainPage.style.width = "100%"; //
 //Nav color control
 
 backgroundColorControl.style.backgroundColor = "none";
