@@ -6,7 +6,7 @@ logoColor.style.filter = "brightness(1)";
 
 window.addEventListener("scroll", function () {
     if (window.scrollY <= 100) {
-    } else {
+    } else (window.scrollY >= 100){
         navColorControl.classList.add("color-background-1");
         navColorControl.classList.remove("color-background-2");
         backgroundColorControl.style.backgroundColor = "transparent";
