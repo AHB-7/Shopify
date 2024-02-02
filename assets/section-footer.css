@@ -9,7 +9,6 @@
 .footer__content-top {
     padding-bottom: 5rem;
     display: block;
-    display: none;
 }
 
 @media screen and (max-width: 749px) {
@@ -55,7 +54,6 @@
     width: 100%;
 }
 .footer__content-bottom-wrapper:nth-child(2) {
-    display: none;
 }
 
 @media screen and (max-width: 749px) {
@@ -120,7 +118,7 @@
 }
 
 .footer-block:empty {
-    display: none;
+
 }
 
 .footer-block--newsletter {
@@ -161,7 +159,7 @@
 
 .footer__list-social:empty,
 .footer-block--newsletter:empty {
-    display: none;
+
 }
 
 .footer__follow-on-shop {
@@ -260,7 +258,7 @@
 }
 
 .footer__localization:empty {
-    display: none;
+
 }
 
 .footer__localization h2 {
