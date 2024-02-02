@@ -1292,7 +1292,7 @@ button.shopify-payment-button__button--unbranded {
 .customer button:after,
 .shopify-payment-button__button--unbranded:after {
     content: "";
-    background: url(./add-to-card.svg);
+    background: url(/assets/add-to-card.svg);
     position: absolute;
     z-index: 1;
     width: 4rem;
