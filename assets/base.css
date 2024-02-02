@@ -1291,9 +1291,13 @@ button.shopify-payment-button__button--unbranded {
 .shopify-challenge__button:after,
 .customer button:after,
 .shopify-payment-button__button--unbranded:after {
-    display: none;
-    /* content: "";
+    content: "";
+    background: url(./add-to-card.svg);
     position: absolute;
+    z-index: 1;
+    transition: box-shadow var(--duration-short) ease;
+
+    /* content: "";
     top: var(--buttons-border-width);
     right: var(--buttons-border-width);
     bottom: var(--buttons-border-width);
