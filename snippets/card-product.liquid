@@ -271,7 +271,10 @@
                       disabled
                     {% endif %}
                   >
-                  <button
+                  {% comment %} 
+                classes been deleted    
+                button button--full-width button--secondary {% endcomment %}
+                  <a
                     id="{{ product_form_id }}-submit"
                     type="submit"
                     name="add"
@@ -312,7 +315,7 @@
                       <span class="icon-wrap">{% render 'icon-plus' %}</span>
                     {%- endif -%}
                     {%- render 'loading-spinner' -%}
-                  </button>
+                  </a>
                 {%- endform -%}
               </product-form>
             {%- endif -%}
