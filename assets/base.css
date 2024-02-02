@@ -1292,16 +1292,7 @@ button.shopify-payment-button__button--unbranded {
 .customer button:after,
 .shopify-payment-button__button--unbranded:after {
     content: "";
-    background: url(/assets/add-to-card.svg);
     position: absolute;
-    z-index: 1;
-    width: 4rem;
-    height: 3rem;
-    transition: box-shadow var(--duration-short) ease;
-    top: 0;
-    left: 0;
-
-    /* content: "";
     top: var(--buttons-border-width);
     right: var(--buttons-border-width);
     bottom: var(--buttons-border-width);
@@ -1312,7 +1303,7 @@ button.shopify-payment-button__button--unbranded {
             rgba(var(--color-button-text), var(--border-opacity)),
         0 0 0 var(--buttons-border-width)
             rgba(var(--color-button), var(--alpha-button-background));
-    transition: box-shadow var(--duration-short) ease; */
+    transition: box-shadow var(--duration-short) ease;
 }
 
 .button:not([disabled]):hover::after,
