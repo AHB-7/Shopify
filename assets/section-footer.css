@@ -118,7 +118,6 @@
 }
 
 .footer-block:empty {
-
 }
 
 .footer-block--newsletter {
@@ -159,7 +158,6 @@
 
 .footer__list-social:empty,
 .footer-block--newsletter:empty {
-
 }
 
 .footer__follow-on-shop {
@@ -258,7 +256,6 @@
 }
 
 .footer__localization:empty {
-
 }
 
 .footer__localization h2 {
@@ -453,7 +450,7 @@
 }
 
 .copyright__content {
-    font-size: 1.1rem;
+    display: none;
 }
 
 .copyright__content a {
