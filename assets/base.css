@@ -28,10 +28,6 @@
         display: block;
         width: auto;
     }
-
-    .product-media-container.media-type-image.media-fit-cover.global-media-settings.gradient.constrain-height {
-        height: 70vh;
-    }
 }
 
 /* Done */
