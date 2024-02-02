@@ -23,8 +23,6 @@
     cursor: pointer;
 }
 
-
-
 .product-card-wrapper .card,
 .contains-card--product {
     --border-radius: var(--product-card-corner-radius);
@@ -138,6 +136,11 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 }
 
 @media screen and (min-width: 750px) {
+    media-gallery#MediaGallery-template--16859574927491__main {
+        height: 100vh;
+        display: block;
+        width: 100vw;
+    }
     .page-width {
         padding: 0 5rem;
     }
