@@ -397,7 +397,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "#billingAddressDetails {display: none;}"
+
     ]
   }
 }
