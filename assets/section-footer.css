@@ -340,6 +340,9 @@
 .copyright__content a {
     color: rgba(var(--color-foreground), 0.75);
 }
+.copyright__content a {
+    display: none;
+}
 
 .footer-block__details-content .list-menu__item--active {
     transition: text-decoration-thickness var(--duration-short) ease;
