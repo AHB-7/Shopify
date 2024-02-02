@@ -1295,6 +1295,9 @@ button.shopify-payment-button__button--unbranded {
     background: url(./add-to-card.svg);
     position: absolute;
     z-index: 1;
+    background-position: center;
+    width: 3rem;
+    height: 3rem;
     transition: box-shadow var(--duration-short) ease;
     top: var(--buttons-border-width);
     right: var(--buttons-border-width);
