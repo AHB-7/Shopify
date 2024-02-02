@@ -340,7 +340,7 @@
 .copyright__content a {
     color: rgba(var(--color-foreground), 0.75);
 }
-.copyright__content a {
+.copyright__content a:nth-child(2) {
     display: none;
 }
 
