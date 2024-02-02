@@ -182,7 +182,11 @@
       <ul
         id="Slider-Thumbnails-{{ section.id }}{{ id_append }}"
         class="thumbnail-list list-unstyled slider slider--mobile{% if section.settings.gallery_layout == 'thumbnail_slider' %} slider--tablet-up{% endif %}"
-      >
+          style="
+          position:absolute;
+          bottom:0;
+          margin:1rem auto;"  
+          >
         {%- capture sizes -%}
           (min-width: {{ settings.page_width }}px) calc(({{ settings.page_width | minus: 100 | times: media_width | round }} - 4rem) / 4),
           (min-width: 990px) calc(({{ media_width | times: 100 }}vw - 4rem) / 4),
