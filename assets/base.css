@@ -28,10 +28,9 @@
         display: block;
         width: auto;
     }
-    media-gallery#MediaGallery-template--16859574927491__main > img {
-        .product-media-container.media-type-image.media-fit-cover.global-media-settings.gradient.constrain-height {
-            height: 70vh;
-        }
+
+    .product-media-container.media-type-image.media-fit-cover.global-media-settings.gradient.constrain-height {
+        height: 70vh;
     }
 }
 
