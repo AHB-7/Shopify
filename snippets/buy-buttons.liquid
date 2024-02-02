@@ -84,14 +84,14 @@
               disabled
             {% endif %}
           >
-          <div>  
+            <span>
+              <div>  
             <svg width="476" height="357" viewBox="0 0 476 357" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 10.5H62L83 86.5M83 86.5L125.5 278.5H426.5L463 86.5H83Z" stroke="black" stroke-width="20"/>
           <circle cx="132" cy="329" r="28" fill="black"/>
           <circle cx="425" cy="329" r="28" fill="black"/>
           </svg>
           </div>
-            <span>
               {%- if product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
                 {{ 'products.product.sold_out' | t }}
               {%- else -%}
