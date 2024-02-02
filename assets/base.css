@@ -23,11 +23,7 @@
     cursor: pointer;
 }
 
-@media screen and (min-width: 750px) {
-    .height-for-mobile-product-page {
-        height: 100vh;
-    }
-}
+
 
 .product-card-wrapper .card,
 .contains-card--product {

@@ -46,7 +46,12 @@
 <media-gallery
   id="MediaGallery-{{ section.id }}{{ id_append }}"
   role="region"
-  class="height-for-mobile-product-page"
+  style="
+  @media screen and (min-width: 750px) {
+    .height-for-mobile-product-page {
+        height: 100vh;
+    }
+}"
   {% if section.settings.enable_sticky_info %}
     class="product__column-sticky"
   {% endif %}
