@@ -22,6 +22,7 @@
     scale: 1.5;
     cursor: pointer;
 }
+
 .product-card-wrapper .card,
 .contains-card--product {
     --border-radius: var(--product-card-corner-radius);
