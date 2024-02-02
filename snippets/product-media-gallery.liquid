@@ -185,7 +185,9 @@
           style="
           position:absolute;
           bottom:0;
-          margin:1rem auto;"  
+          margin:1rem auto;
+          width:100vw;
+          height: 15rem"  
           >
         {%- capture sizes -%}
           (min-width: {{ settings.page_width }}px) calc(({{ settings.page_width | minus: 100 | times: media_width | round }} - 4rem) / 4),
