@@ -1296,6 +1296,10 @@ button.shopify-payment-button__button--unbranded {
     position: absolute;
     z-index: 1;
     transition: box-shadow var(--duration-short) ease;
+    top: var(--buttons-border-width);
+    right: var(--buttons-border-width);
+    bottom: var(--buttons-border-width);
+    left: var(--buttons-border-width);
 
     /* content: "";
     top: var(--buttons-border-width);
