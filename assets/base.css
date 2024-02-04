@@ -22,13 +22,13 @@
     scale: 1.5;
     cursor: pointer;
 }
-@media screen and (max-width: 750px) {
+/* @media screen and (max-width: 750px) {
     media-gallery#MediaGallery-template--16859574927491__main {
         height: 90vh;
         display: block;
         width: auto;
     }
-}
+} */
 
 /* Done */
 .product-card-wrapper .card,
