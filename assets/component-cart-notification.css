@@ -43,7 +43,7 @@
         + cart-notification
         .cart-notification {
         border-top-width: var(--popup-border-width);
-        background-color: white;
+        background: white;
     }
 
     .cart-notification {
