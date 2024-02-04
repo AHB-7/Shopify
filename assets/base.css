@@ -586,6 +586,7 @@ hr {
     text-decoration: none;
     color: currentColor;
     display: block;
+    font-size: 2rem;
 }
 
 .placeholder {
