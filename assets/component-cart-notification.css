@@ -1,7 +1,9 @@
 .cart-notification-wrapper {
     position: relative;
 }
-
+cart-notification {
+    background-color: white;
+}
 .cart-notification-wrapper .cart-notification {
     display: block;
 }
@@ -43,7 +45,6 @@
         + cart-notification
         .cart-notification {
         border-top-width: var(--popup-border-width);
-        background: white;
     }
 
     .cart-notification {
