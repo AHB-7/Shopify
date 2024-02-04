@@ -8,6 +8,8 @@ const currentUrl = window.location.pathname;
 
 // Size first section
 //Nav color control
+logoColor.style.transition = "0.5s";
+navColorControl.style.transition = "0.5s";
 
 backgroundColorControl.style.backgroundColor = "none";
 if (currentUrl !== "/") {
