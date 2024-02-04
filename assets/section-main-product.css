@@ -519,6 +519,7 @@ a.product__text {
     .product__media-wrapper slider-component:not(.thumbnail-slider--no-slide) {
         margin-left: -2rem;
         margin-right: -2rem;
+        height: 55%;
     }
 
     .slider.product__media-list::-webkit-scrollbar {
