@@ -24,7 +24,7 @@
         "slide_NwHcTM": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/photo-output_2e5b301b-48b4-4ef4-9081-d35d36f081de.jpg",
+            "image": "shopify:\/\/shop_images\/3C3D8F34-E3D0-4B00-8B77-C57EB9F7E3B0.png",
             "heading": "",
             "heading_size": "h0",
             "subheading": "Tell your brand's story through images",
@@ -104,7 +104,7 @@
         "enable_quick_add": true,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 40
       }
     }
