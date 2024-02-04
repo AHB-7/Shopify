@@ -13,7 +13,7 @@ backgroundColorControl.style.backgroundColor = "none";
 if (currentUrl !== "/") {
     logoColor.style.filter = "brightness(0)";
     navColorControl.classList.add("color-background-1");
-    navColorControl.classList.remove("color-background-4");
+    navColorControl.classList.remove("color-background-2");
 } else {
     logoColor.style.filter = "brightness(1)";
 }
