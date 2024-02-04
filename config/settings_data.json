@@ -117,7 +117,7 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
-    "cart_color_scheme": "background-1",
+    "cart_color_scheme": "accent-1",
     "checkout_logo_image": "shopify:\/\/shop_images\/IMG_8544.png",
     "checkout_logo_position": "right",
     "checkout_logo_size": "medium",
