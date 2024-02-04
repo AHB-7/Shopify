@@ -1490,7 +1490,7 @@ a.product__text {
         display: flex;
         align-self: stretch;
         /* heigt control */
-        height: 70vh;
+        height: 88vh;
     }
 
     .product-media-container.media-fit-cover .media {
