@@ -1517,7 +1517,7 @@ a.product__text {
     .product-media-container.media-fit-cover .media {
         height: 100%;
         max-height: 80rem;
-        min-width: 55rem;
+        min-height: 55rem;
     }
 
     .product-media-container.media-fit-cover .deferred-media__poster img {
