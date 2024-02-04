@@ -1489,6 +1489,8 @@ a.product__text {
     .product-media-container.media-fit-cover {
         display: flex;
         align-self: stretch;
+        /* heigt control */
+        height: 70vh;
     }
 
     .product-media-container.media-fit-cover .media {
@@ -1530,7 +1532,7 @@ a.product__text {
     display: block;
     position: relative;
     height: 100vh;
-    max-height: 43rem;
+    max-height: 100%;
 }
 
 @media screen and (min-width: 750px) {
