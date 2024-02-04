@@ -38,8 +38,8 @@
     --border-opacity: var(--product-card-border-opacity);
     --shadow-horizontal-offset: var(--product-card-shadow-horizontal-offset);
     --shadow-vertical-offset: var(--product-card-shadow-vertical-offset);
-    --shadow-blur-radius: var(--product-card-shadow-blur-radius);
-    --shadow-opacity: var(--product-card-shadow-opacity);
+    --shadow-blur-radius: 0.1rem;
+    --shadow-opacity: 0.01;
     --shadow-visible: var(--product-card-shadow-visible);
     --image-padding: var(--product-card-image-padding);
     --text-alignment: var(--product-card-text-alignment);
