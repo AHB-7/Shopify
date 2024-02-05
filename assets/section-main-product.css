@@ -1502,7 +1502,7 @@ a.product__text {
     .product-media-container {
         max-width: 100%;
         /* test */
-        margin-top: 0;
+        padding-top: 0;
     }
 
     .product-media-container:not(.media-type-image) {
