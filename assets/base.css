@@ -29,6 +29,9 @@
     .grid--peek {
         gap: 0rem;
     }
+    .padding {
+        padding-top: 0 !important;
+    }
     .slider.slider--mobile {
         margin-left: none !important;
     }

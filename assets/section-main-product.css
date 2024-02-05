@@ -1486,6 +1486,7 @@ a.product__text {
 }
 
 @media screen and (max-width: 749px) {
+    
     .product-media-container.media-fit-cover {
         display: flex;
         align-self: stretch;
@@ -1494,9 +1495,6 @@ a.product__text {
     .product-media-container.media-fit-cover .media {
         /* allow media img element to scale relative to modal-opener/product-media-container */
         position: initial;
-    }
-    .padding {
-        padding-top: 0 !important;
     }
 }
 
