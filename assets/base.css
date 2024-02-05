@@ -33,7 +33,7 @@
         padding-top: 0 !important;
     }
     .slider.slider--mobile {
-        margin-left: none !important;
+        margin-left: 0 -1.5rem;
     }
 }
 
