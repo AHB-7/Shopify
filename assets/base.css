@@ -943,9 +943,9 @@ summary::-webkit-details-marker {
     column-gap: var(--grid-mobile-horizontal-spacing);
     row-gap: var(--grid-mobile-vertical-spacing);
 }
-.slider.slider--mobile {
+/* .slider.slider--mobile {
     gap: 2rem;
-}
+} */
 @media screen and (min-width: 750px) {
     .grid {
         column-gap: var(--grid-desktop-horizontal-spacing);
@@ -1103,8 +1103,7 @@ summary::-webkit-details-marker {
 
 @media screen and (max-width: 749px) {
     .grid--peek.slider--mobile {
-        margin: 0;
-        width: 100%;
+        width: auto;
     }
 
     .grid--peek.slider--mobile .grid__item {
