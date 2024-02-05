@@ -31,6 +31,7 @@
     }
     .slider.slider--mobile {
         margin-left: none !important;
+        margin-top: 0;
     }
 }
 
