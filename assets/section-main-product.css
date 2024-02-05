@@ -1489,20 +1489,20 @@ a.product__text {
     .product-media-container.media-fit-cover {
         display: flex;
         align-self: stretch;
-        /* heigt control */
         height: 90vh;
     }
     .product-media-container.media-fit-cover .media {
         /* allow media img element to scale relative to modal-opener/product-media-container */
         position: initial;
     }
+    .padding {
+        padding-top: 0;
+    }
 }
 
 @media screen and (min-width: 750px) {
     .product-media-container {
         max-width: 100%;
-        /* test */
-        padding-top: 0;
     }
 
     .product-media-container:not(.media-type-image) {
