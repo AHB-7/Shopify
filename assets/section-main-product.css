@@ -1501,6 +1501,7 @@ a.product__text {
 @media screen and (min-width: 750px) {
     .product-media-container {
         max-width: 100%;
+        /* test */
         margin-top: 0;
     }
 
