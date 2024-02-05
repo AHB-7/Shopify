@@ -1491,6 +1491,7 @@ a.product__text {
         align-self: stretch;
         /* heigt control */
         height: 90vh;
+        margin-top: 0;
     }
 
     .product-media-container.media-fit-cover .media {
