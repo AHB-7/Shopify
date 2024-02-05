@@ -986,6 +986,7 @@ summary::-webkit-details-marker {
 .grid--1-col .grid__item {
     max-width: 100%;
     width: 100%;
+    height: fit-content;
 }
 
 .grid--3-col .grid__item {
