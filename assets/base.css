@@ -10,7 +10,7 @@
     filter: brightness(50%);
 }
 .section-template--16859575419011__featured_collection-padding {
-    padding-top: (100vh - 4.5rem);
+    padding-top: calc(100vh - 4.5rem);
 }
 .add-to-card-svg {
     scale: 1.4;
