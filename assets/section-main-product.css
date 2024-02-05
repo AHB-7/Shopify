@@ -1494,7 +1494,7 @@ a.product__text {
     }
     .product-media-container.media-fit-cover .media {
         /* allow media img element to scale relative to modal-opener/product-media-container */
-        position: relative;
+        position: initial;
         height: 100vh;
     }
 }
