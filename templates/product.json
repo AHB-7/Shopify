@@ -40,6 +40,18 @@
             "show_gift_card_recipient": true
           }
         },
+        "icon_with_text_6QGMta": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "stopwatch",
+            "heading_1": "Heading",
+            "icon_2": "return",
+            "heading_2": "Heading",
+            "icon_3": "truck",
+            "heading_3": "Heading"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -59,6 +71,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons_bKTkJd",
+        "icon_with_text_6QGMta",
         "description",
         "share"
       ],
@@ -98,10 +111,74 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "collapsible_content_6g9xd6": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_hKg8Mi": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "2 YEARS GUARANTEE",
+            "icon": "lightning_bolt",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_yXByQE": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "30 DAYS RETURN \/ EXCHANGE",
+            "icon": "check_mark",
+            "row_content": "<p><strong>60 DAYS RETURN \/ EXCHANGE<\/strong><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_F8gJzj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "SHIPPING, RETURN & EXCHANGE",
+            "icon": "plane",
+            "row_content": "<p><strong>Shipping:<br\/><\/strong><\/p><ul><li> Free shipping on all orders.<\/li><li>Inside EU: 2-5 business days <\/li><\/ul><p><strong>Return & Exchange:<\/strong><\/p><ul><li>We offer a 30-day return & exchange policy.<\/li><li>Need to return or exchange something? Click here<br\/><br\/><strong>NO CUSTOMS NO DUTIES ON ALL ORDERS<\/strong><\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ieTJtt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "2 YEARS GUARANTEE",
+            "icon": "heart",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_hKg8Mi",
+        "collapsible_row_yXByQE",
+        "collapsible_row_F8gJzj",
+        "collapsible_row_ieTJtt"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_first",
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "collapsible_content_6g9xd6"
   ]
 }
