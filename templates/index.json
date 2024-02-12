@@ -83,7 +83,7 @@
         ".collection {padding-top: calc(100vh - 5rem);}"
       ],
       "settings": {
-        "title": "_ OUR CRAFTS _",
+        "title": "OUR CRAFTS",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
