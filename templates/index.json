@@ -23,6 +23,7 @@
         },
         "slide_NwHcTM": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/model-in-latte-colored-hoodie.jpg",
             "heading": "",
