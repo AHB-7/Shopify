@@ -128,25 +128,70 @@
         "padding_bottom": 40
       }
     },
+    "rich_text_kYEMVq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Lm6zzT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_dLGNLg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_7DfpCn": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Lm6zzT",
+        "text_dLGNLg",
+        "button_7DfpCn"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner_QtqMJ6": {
       "type": "image-banner",
       "blocks": {
         "heading_mrf8yA": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "<strong>Fresh & Energetic<\/strong>",
             "heading_size": "h1"
           }
         },
         "text_AU3Lx7": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
           }
         },
-        "buttons_BxTfTb": {
+        "buttons_Rz6wyD": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Button label",
             "button_link_1": "",
@@ -160,14 +205,14 @@
       "block_order": [
         "heading_mrf8yA",
         "text_AU3Lx7",
-        "buttons_BxTfTb"
+        "buttons_Rz6wyD"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/model-in-latte-colored-hoodie.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "",
         "image_behavior": "none",
@@ -180,6 +225,7 @@
   "order": [
     "slideshow_E3PJYq",
     "featured_collection",
+    "rich_text_kYEMVq",
     "image_banner_QtqMJ6"
   ]
 }
