@@ -39,6 +39,7 @@
 
 .shadow {
     text-shadow: none;
+    transition: 0.5s;
 }
 .shadow:hover {
     text-shadow: -6px 2px 10px black;
