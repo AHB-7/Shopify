@@ -3,42 +3,6 @@
     "slideshow_E3PJYq": {
       "type": "slideshow",
       "blocks": {
-        "slide_8WhGET": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/stylish-man-in-bow-tie.jpg",
-            "heading": "",
-            "heading_size": "h0",
-            "subheading": "Memories on the wrist",
-            "button_label": "Memories On Whe Wrist",
-            "link": "shopify:\/\/collections\/frontpage",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "inverse",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_NwHcTM": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/mens-watch-and-ring.jpg",
-            "heading": "",
-            "heading_size": "h0",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "On Time",
-            "link": "shopify:\/\/collections\/frontpage",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "inverse",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_jLFFFH": {
           "type": "slide",
           "settings": {
@@ -56,12 +20,48 @@
             "color_scheme": "inverse",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_NwHcTM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mens-watch-and-ring.jpg",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "CRAFTING MOMENTS. MASTERING TIME.",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_8WhGET": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/stylish-man-in-bow-tie.jpg",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "Memories on the wrist",
+            "button_label": "Memories On Whe Wrist",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "slide_8WhGET",
+        "slide_jLFFFH",
         "slide_NwHcTM",
-        "slide_jLFFFH"
+        "slide_8WhGET"
       ],
       "custom_css": [
 
