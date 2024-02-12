@@ -134,14 +134,20 @@
         "heading_Lm6zzT": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Every Watch Tells a Story",
             "heading_size": "h1"
           }
         },
         "text_dLGNLg": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<h3>This is our<\/h3>"
+          }
+        },
+        "text_qbfCDq": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>\"VELISSI\" - <strong>We envision <\/strong>a world where elegance meets innovation, where every moment is adorned with timeless sophistication. <\/h2><h2><strong>Our mission <\/strong>is to empower individuals with confidence and comfort, offering meticulously crafted timepieces that elevate their style and redefine luxury. <\/h2>"
           }
         },
         "button_7DfpCn": {
@@ -160,6 +166,7 @@
       "block_order": [
         "heading_Lm6zzT",
         "text_dLGNLg",
+        "text_qbfCDq",
         "button_7DfpCn"
       ],
       "settings": {
