@@ -455,7 +455,7 @@
     max-width: 45rem;
     word-break: break-word;
 }
-.banner__buttons:hover {
+.banner__buttons:hover > .button--primary {
     box-shadow: 10px 0px 10px rgba(0, 0, 0, 1);
 }
 
