@@ -36,7 +36,9 @@
         margin-left: 0 -1.5rem;
     }
 }
-
+.shadow {
+    text-shadow: 10px 10px 10px black;
+}
 /* @media screen and (max-width: 750px) {
     media-gallery#MediaGallery-template--16859574927491__main {
         height: 90vh;
