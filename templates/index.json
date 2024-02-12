@@ -80,7 +80,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection {padding-top: calc(100vh - 5rem);}"
+        ".collection {padding-top: calc(100vh - 5rem);text-align:center;}"
       ],
       "settings": {
         "title": "OUR CRAFTS",
