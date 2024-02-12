@@ -455,7 +455,7 @@
     max-width: 45rem;
     word-break: break-word;
 }
-.button:before {
+.banner__buttons:hover > a {
     text-shadow: 10px 0px 10px rgba(0, 0, 0, 1);
 }
 
