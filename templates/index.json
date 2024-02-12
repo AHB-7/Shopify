@@ -3,14 +3,14 @@
     "slideshow_E3PJYq": {
       "type": "slideshow",
       "blocks": {
-        "slide_8WhGET": {
+        "slide_jLFFFH": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/412F81A2-8A08-4F98-9AAC-EBF302041174_3a1266bc-2060-4905-a973-09e8525fca43.jpg",
+            "image": "shopify:\/\/shop_images\/man-in-white-and-light-tan-outfit.jpg",
             "heading": "",
             "heading_size": "h0",
-            "subheading": "Memories on the wrist",
-            "button_label": "Memories On Whe Wrist",
+            "subheading": "",
+            "button_label": "LEVEL UP.",
             "link": "shopify:\/\/collections\/frontpage",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -24,11 +24,11 @@
         "slide_NwHcTM": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/photo-output_2e5b301b-48b4-4ef4-9081-d35d36f081de.jpg",
+            "image": "shopify:\/\/shop_images\/mens-watch-and-ring.jpg",
             "heading": "",
             "heading_size": "h0",
             "subheading": "Tell your brand's story through images",
-            "button_label": "On Time",
+            "button_label": "CRAFTING MOMENTS. MASTERING TIME.",
             "link": "shopify:\/\/collections\/frontpage",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -39,14 +39,14 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_jLFFFH": {
+        "slide_8WhGET": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8E6128DB-00E0-4F50-BAEE-70CE5D6A8DA9.jpg",
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/stylish-man-in-bow-tie.jpg",
+            "heading": "",
             "heading_size": "h0",
-            "subheading": "",
-            "button_label": "Prettier",
+            "subheading": "Memories on the wrist",
+            "button_label": "CRAFTED FOR MOMENTS. CHERISHED FOR ETERNITY.",
             "link": "shopify:\/\/collections\/frontpage",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -59,9 +59,9 @@
         }
       },
       "block_order": [
-        "slide_8WhGET",
+        "slide_jLFFFH",
         "slide_NwHcTM",
-        "slide_jLFFFH"
+        "slide_8WhGET"
       ],
       "custom_css": [
 
@@ -71,7 +71,7 @@
         "slide_height": "medium",
         "slider_visual": "dots",
         "auto_rotate": true,
-        "change_slides_speed": 5,
+        "change_slides_speed": 3,
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": ""
@@ -80,17 +80,17 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection {padding-top: 100vh;}"
+        ".collection {padding-top: calc(100vh - 4rem); text-align: center;}"
       ],
       "settings": {
-        "title": "Our crafts",
-        "heading_size": "h0",
+        "title": "OUR CRAFTS",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "subtitle",
         "collection": "frontpage",
         "products_to_show": 6,
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
