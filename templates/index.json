@@ -141,13 +141,13 @@
         "text_dLGNLg": {
           "type": "text",
           "settings": {
-            "text": "<h3>This is our<\/h3>"
+            "text": "<h4>This is our<\/h4>"
           }
         },
         "text_qbfCDq": {
           "type": "text",
           "settings": {
-            "text": "<h2>\"VELISSI\" - <strong>We envision <\/strong>a world where elegance meets innovation, where every moment is adorned with timeless sophistication. <\/h2>"
+            "text": "<h3>\"VELISSI\" - <strong>We envision <\/strong>a world where elegance meets innovation, where every moment is adorned with timeless sophistication. <\/h3>"
           }
         },
         "button_7DfpCn": {
