@@ -64,7 +64,7 @@
         "slide_8WhGET"
       ],
       "custom_css": [
-
+        ".slideshow{z-index:100;}"
       ],
       "settings": {
         "layout": "full_bleed",
