@@ -455,8 +455,8 @@
     max-width: 45rem;
     word-break: break-word;
 }
- .button:before {
-    box-shadow: 10px 0px 10px rgba(0, 0, 0, 1);
+.button:before {
+    text-shadow: 10px 0px 10px rgba(0, 0, 0, 1);
 }
 
 @media screen and (max-width: 749px) {
