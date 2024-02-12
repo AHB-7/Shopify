@@ -10,7 +10,7 @@
             "heading": "",
             "heading_size": "h0",
             "subheading": "",
-            "button_label": "LEVEL UP.",
+            "button_label": "LEVEL UP",
             "link": "shopify:\/\/collections\/frontpage",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -23,8 +23,9 @@
         },
         "slide_NwHcTM": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/mens-watch-and-ring.jpg",
+            "image": "shopify:\/\/shop_images\/model-in-latte-colored-hoodie.jpg",
             "heading": "",
             "heading_size": "h0",
             "subheading": "Tell your brand's story through images",
@@ -42,11 +43,29 @@
         "slide_8WhGET": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/stylish-man-in-bow-tie.jpg",
+            "image": "shopify:\/\/shop_images\/man-in-suit-on-stairs.jpg",
             "heading": "",
             "heading_size": "h0",
             "subheading": "Memories on the wrist",
-            "button_label": "CRAFTED FOR MOMENTS. CHERISHED FOR ETERNITY.",
+            "button_label": "MADE FOR THE MOMENTS",
+            "link": "shopify:\/\/collections\/frontpage",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_KzwWEF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/model-deep-in-thought.jpg",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "Memories on the wrist",
+            "button_label": "CRAFTED FOR ETERNITY",
             "link": "shopify:\/\/collections\/frontpage",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -61,7 +80,8 @@
       "block_order": [
         "slide_jLFFFH",
         "slide_NwHcTM",
-        "slide_8WhGET"
+        "slide_8WhGET",
+        "slide_KzwWEF"
       ],
       "custom_css": [
         ".slideshow {z-index: 2;}"
@@ -90,7 +110,7 @@
         "description_style": "subtitle",
         "collection": "frontpage",
         "products_to_show": 6,
-        "columns_desktop": 2,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -98,7 +118,7 @@
         "color_scheme": "background-1",
         "image_ratio": "square",
         "image_shape": "default",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": true,
@@ -107,10 +127,59 @@
         "padding_top": 0,
         "padding_bottom": 40
       }
+    },
+    "image_banner_QtqMJ6": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_mrf8yA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_AU3Lx7": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_BxTfTb": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_mrf8yA",
+        "text_AU3Lx7",
+        "buttons_BxTfTb"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/model-in-latte-colored-hoodie.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "slideshow_E3PJYq",
-    "featured_collection"
+    "featured_collection",
+    "image_banner_QtqMJ6"
   ]
 }
