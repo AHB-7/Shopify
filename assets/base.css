@@ -36,7 +36,9 @@
         margin-left: 0 -1.5rem;
     }
 }
-
+.banner__buttons:hover {
+    text-shadow: 0.1rem 0.1rem 0.1rem 0.1rem black;
+}
 /* @media screen and (max-width: 750px) {
     media-gallery#MediaGallery-template--16859574927491__main {
         height: 90vh;
