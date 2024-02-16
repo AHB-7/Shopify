@@ -221,6 +221,7 @@
       "blocks": {
         "heading_mrf8yA": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<strong>Make it you'rs<\/strong>",
             "heading_size": "h1"
@@ -253,7 +254,7 @@
         "buttons_Rz6wyD"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/palm-trees-sky.jpg",
+        "image": "shopify:\/\/shop_images\/IMG_8719.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
