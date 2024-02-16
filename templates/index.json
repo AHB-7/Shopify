@@ -253,6 +253,7 @@
         "text_AU3Lx7",
         "buttons_Rz6wyD"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_8719.jpg",
         "image_overlay_opacity": 0,
