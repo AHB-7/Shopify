@@ -175,7 +175,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 28,
-        "padding_bottom": 32
+        "padding_bottom": 16
       }
     },
     "image_with_text_6TyKiY": {
@@ -183,6 +183,7 @@
       "blocks": {
         "heading_twQPiD": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "OUR MISSION",
             "heading_size": "h1"
@@ -190,6 +191,7 @@
         },
         "text_TCwyUJ": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<h2><strong> <\/strong>is to empower individuals with confidence and comfort, offering meticulously crafted timepieces that elevate their style and redefine luxury.<\/h2>",
             "text_style": "body"
@@ -212,60 +214,54 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 16,
+        "padding_bottom": 0
       }
     },
-    "image_banner_QtqMJ6": {
-      "type": "image-banner",
+    "rich_text_R9zTkj": {
+      "type": "rich-text",
       "blocks": {
-        "heading_mrf8yA": {
+        "heading_bENy78": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "<strong>Make it you'rs<\/strong>",
+            "heading": "<strong>YES<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "heading_f7VXj7": {
+          "type": "heading",
+          "settings": {
+            "heading": "We Are a new<strong> <\/strong>Brand",
             "heading_size": "h1"
           }
         },
-        "text_AU3Lx7": {
-          "type": "text",
-          "disabled": true,
+        "heading_rY6Pat": {
+          "type": "heading",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "heading": "<strong>BUT<\/strong>",
+            "heading_size": "h1"
           }
         },
-        "buttons_Rz6wyD": {
-          "type": "buttons",
-          "disabled": true,
+        "text_tB3hbk": {
+          "type": "text",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<h2>Our mission is to empower individuals with confidence and comfort, and we’re offering meticulously crafted timepieces that elevate our customers style and confidence.<\/h2>"
           }
         }
       },
       "block_order": [
-        "heading_mrf8yA",
-        "text_AU3Lx7",
-        "buttons_Rz6wyD"
+        "heading_bENy78",
+        "heading_f7VXj7",
+        "heading_rY6Pat",
+        "text_tB3hbk"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_8719.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 52
       }
     }
   },
@@ -274,6 +270,6 @@
     "slideshow_E3PJYq",
     "rich_text_kYEMVq",
     "image_with_text_6TyKiY",
-    "image_banner_QtqMJ6"
+    "rich_text_R9zTkj"
   ]
 }
