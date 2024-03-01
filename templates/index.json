@@ -232,14 +232,14 @@
           "type": "heading",
           "settings": {
             "heading": "We Are a new<strong> <\/strong>Brand",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "heading_rY6Pat": {
           "type": "heading",
           "settings": {
             "heading": "<strong>BUT<\/strong>",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_tB3hbk": {
