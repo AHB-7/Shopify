@@ -399,7 +399,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-
+      ".badge--bottom-left{display:none;}"
     ]
   }
 }
