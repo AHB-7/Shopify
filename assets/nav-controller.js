@@ -11,7 +11,9 @@ const currentUrl = window.location.pathname;
 logoColor.style.transition = "0.5s";
 navColorControl.style.transition = "0.5s";
 
-const headerCountryList = document.querySelector("#HeaderCountryList");
+const headerCountryList = document.querySelector(
+    "#HeaderCountryList .disclosure__item"
+);
 headerCountryList.style.color = "#000000";
 backgroundColorControl.style.backgroundColor = "none";
 if (currentUrl !== "/") {
