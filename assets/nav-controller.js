@@ -15,7 +15,7 @@ const headerCountryList = document.querySelectorAll(
     "#HeaderCountryList .disclosure__item .disclosure__link"
 );
 headerCountryList.forEach((element) => {
-    headerCountryList.style.color = "#000000";
+    element.style.color = "#000000";
 });
 backgroundColorControl.style.backgroundColor = "none";
 if (currentUrl !== "/") {
