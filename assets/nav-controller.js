@@ -12,7 +12,7 @@ logoColor.style.transition = "0.5s";
 navColorControl.style.transition = "0.5s";
 
 const headerCountryList = document.querySelectorAll(
-    "#HeaderCountryList .disclosure__item .disclosure__link"
+    ".disclosure__item .disclosure__link"
 );
 headerCountryList.forEach((element) => {
     element.style.color = "#000000";
