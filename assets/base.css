@@ -539,11 +539,7 @@ h2:empty,
 h3:empty,
 h4:empty,
 h5:empty,
-h6:empty {
-    display: none;
-}
-
-.link,
+h6:empty .link,
 .customer a {
     cursor: pointer;
     display: inline-block;
