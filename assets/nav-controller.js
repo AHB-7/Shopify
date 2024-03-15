@@ -11,10 +11,12 @@ const currentUrl = window.location.pathname;
 logoColor.style.transition = "0.5s";
 navColorControl.style.transition = "0.5s";
 
-const headerCountryList = document.querySelector(
+const headerCountryList = document.querySelectorAll(
     "#HeaderCountryList .disclosure__item .disclosure__link"
 );
-headerCountryList.style.color = "#000000";
+headerCountryList.forEach((element) => {
+    headerCountryList.style.color = "#000000";
+});
 backgroundColorControl.style.backgroundColor = "none";
 if (currentUrl !== "/") {
     logoColor.style.filter = "brightness(0)";
