@@ -400,7 +400,7 @@
   "platform_customizations": {
     "custom_css": [
       ".badge--bottom-left {display: none;}",
-      ".cart__dynamic-checkout-buttons {width: 100%;max-width: 36rem; margin: 0 auto;}"
+      ".cart__dynamic-checkout-buttons {display:flex; justify-content:cente;align-items:center;}"
     ]
   }
 }
