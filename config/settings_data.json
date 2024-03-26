@@ -399,7 +399,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".badge--bottom-left {display: none;}"
+      ".badge--bottom-left {display: none;}",
+      ".cart__dynamic-checkout-buttons{text-align: center;}"
     ]
   }
 }
