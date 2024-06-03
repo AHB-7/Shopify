@@ -34,15 +34,15 @@
     "slideshow_E3PJYq": {
       "type": "slideshow",
       "blocks": {
-        "slide_jLFFFH": {
+        "slide_KzwWEF": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/summer-at-niagara-falls.jpg",
+            "image": "shopify:\/\/shop_images\/woman-wades-in-ocean-at-sunset.jpg",
             "heading": "",
             "heading_size": "h0",
-            "subheading": "",
-            "button_label": "Precision Crafted for You",
-            "link": "shopify:\/\/products\/believe",
+            "subheading": "<strong>For Every Chapter of Your Journey<\/strong>",
+            "button_label": "For Every Chapter of Your Journey",
+            "link": "shopify:\/\/collections\/frontpage",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -52,16 +52,15 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_NwHcTM": {
+        "slide_jLFFFH": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/model-in-latte-colored-hoodie.jpg",
+            "image": "shopify:\/\/shop_images\/summer-at-niagara-falls.jpg",
             "heading": "",
             "heading_size": "h0",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "CRAFTING MOMENTS. MASTERING TIME.",
-            "link": "shopify:\/\/collections\/frontpage",
+            "subheading": "",
+            "button_label": "Precision Crafted for You",
+            "link": "shopify:\/\/products\/believe",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -89,14 +88,15 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_KzwWEF": {
+        "slide_NwHcTM": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/woman-wades-in-ocean-at-sunset.jpg",
+            "image": "shopify:\/\/shop_images\/model-in-latte-colored-hoodie.jpg",
             "heading": "",
             "heading_size": "h0",
-            "subheading": "<strong>For Every Chapter of Your Journey<\/strong>",
-            "button_label": "For Every Chapter of Your Journey",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "CRAFTING MOMENTS. MASTERING TIME.",
             "link": "shopify:\/\/collections\/frontpage",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -109,10 +109,10 @@
         }
       },
       "block_order": [
+        "slide_KzwWEF",
         "slide_jLFFFH",
-        "slide_NwHcTM",
         "slide_8WhGET",
-        "slide_KzwWEF"
+        "slide_NwHcTM"
       ],
       "custom_css": [
         ".slideshow {z-index: 2;}"
